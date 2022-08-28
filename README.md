@@ -14,11 +14,10 @@ Steps:
 	"hostpage":"http://{name-user}.github.io//{name-repository}/"
 
 and add on scrips the next two lines:
-	
-	
-"predeploy": "npm run build",
 
-"deploy": "gh-pages -d build"
+	"predeploy": "npm run build",
+
+	"deploy": "gh-pages -d build"
 
 4- execute next command on the proyect:
 
