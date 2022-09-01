@@ -6,6 +6,7 @@ Steps:
 1- Create new repository on GitHub
 
 2- Should install gh-pages in your proyecto of react with next command
+
 	nmp install gh-pages --save-dev
 
 3- Enter on package.json and add in the configuration the following:
