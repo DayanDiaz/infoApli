@@ -78,7 +78,7 @@ function Login() {
               </div>
 
               <button className="btn btn-outline-primary mt-3" type="submit">
-                Ingresar
+                Ingresar1
               </button>
 
             </form>
