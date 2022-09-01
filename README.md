@@ -6,22 +6,16 @@ Steps:
 1- Create new repository on GitHub
 
 2- Should install gh-pages in your proyecto of react with next command
-nmp install gh-pages --save-dev
+	nmp install gh-pages --save-dev
 
 3- Enter on package.json and add in the configuration the following:
-"hostpage":"http://{name-user}.github.io//{name-repository}/"
+	"hostpage":"http://{name-user}.github.io//{name-repository}/"
 and add on scrips the next two lines:
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
 
 4- execute next command on the proyect:
 
-
-1- Create new repository on GitHub
-
-2- Should install gh-pages in your proyect of react with next command
-
-	nmp install gh-pages --save-dev
 
 3- Enter on package.json and add in the configuration the following:
 	
