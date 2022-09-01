@@ -9,8 +9,11 @@ Steps:
 	nmp install gh-pages --save-dev
 
 3- Enter on package.json and add in the configuration the following:
+
 	"hostpage":"http://{name-user}.github.io//{name-repository}/"
+	
 and add on scrips the next two lines:
+
 	"predeploy": "npm run build",
 	"deploy": "gh-pages -d build"
 
